@@ -25,6 +25,7 @@ if (agregarEstano == "si"){
 let agregarTrembo = prompt("Desea agregar trembolona al carrito?")
 if (agregarTrembo == "si"){
     carritoCompras.push(productos[2])
+    alert("gracias por elegirnos! el total de su carrito aparecera en la consola")
 }else{alert("gracias por visitarnos. Si añadio productos, en la consola le saltara el total.")}
 
 let acumulador = 0
